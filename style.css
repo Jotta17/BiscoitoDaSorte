@@ -92,6 +92,10 @@ main{
     box-shadow: 2px 2px 2px 0px rgba(85, 85, 85, 0.50);
     padding: 1rem;
     margin-bottom: 6rem;
+
+	animation-name: up;
+    animation-duration: 2s;
+    animation-direction: normal;
 }
 
 
@@ -118,6 +122,21 @@ main{
     background: #ca7600;
 
 }
+
+@keyframes up{
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+
+    }
+
+    
+    100%{
+        transform: translateY(0);
+
+    }
+}
+
 
 @keyframes vibrate-fast {
 			
